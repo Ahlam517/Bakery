@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    padding: 0;
+font-family: "Noto Sans Arabic", sans-serif;
+}
+::selection{
+    background-color: #664821;
+    color:#fff;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+ h2{
+    font-size: 30px;
+}
+
+ p{
+    color: rgb(139, 121, 121);
+    font-size: 14px;
+    line-height: 2.2em;
+}
+
+span{
+    color: rgb(139, 121, 121);
+    font-size: 14px;
+    line-height: 2.2em;
+    padding-left: 2%;
+}
+
+/* home */
+
+
+.home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* navbar */
+
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+nav .logo{
+    width: 40%;
+    margin-left: 10%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav .logo img{
+    width: 30%;
+}
+
+nav .nav-links{
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav .nav-links ul{
+    list-style-type: none;
+}
+
+nav .nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav .nav-links ul li{
+    display: inline-block;
+    padding: 0px 15px 10px;
+}
+
+/* welcome */
+
+.welcome{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    color:white;
+}
+.welcome h4{
+    font-size: 22px;
+}
+.welcome h1{
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.welcome p{
+    font-size: 20px;
+    color: white;
+}
+
+.btns{
+        margin-bottom: 20px;
+}
+.btns a{
+    text-decoration: none;
+    color: white;
+}
+.btn1, .btn2{
+    padding: 12px;
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 15px;
+}
+.btn1{
+    background-color: #b99763;
+    border: 2px solid transparent;
+}
+.btn1:hover{
+    background-color: white;
+}
+.btn1:hover a{
+    color: black;
+}
+
+.btn2{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.btn2:hover{
+    background-color: white;
+}
+.btn2:hover a{
+    color: black;
+}
+
+
+/* who we are */
+
+.who-we-are,
+.location,
+.information{
+    margin-top: 10%;
+}
+.who-we-are-left,.who-we-are-right,
+.location-left,.location-right{
+    width: 45%;
+    display: inline-block;
+}
+.who-we-are-right{
+    margin-left: 9%;
+    padding-top: 2%;
+    vertical-align: top;
+}
+ul{
+    list-style-type: none;
+    padding-top: 4%;
+    padding-left: 0;
+}
+
+.who-we-are-right ul .fa-brands,
+.who-we-are-right ul .fa-solid
+{
+    font-size: 20px;
+    padding: 6px;
+    color: #b99763;
+      border: 1px solid #b99763;
+      border-radius: 50%;
+      margin:8px 5px;
+      text-align: center;
+} 
+
+
+/* our-location */
+
+.location,
+.information{
+background-color: #f5f5f5;
+}
+
+.location-left,.location-right{
+    padding: 5% 0;
+}
+.location-left{
+    vertical-align: top;
+    padding-right: 5%;;
+}
+.location p{
+    padding:  3% 0;
+}
+
+
+/* our-baking */
+
+.baking{
+     margin-top: 10%;
+     text-align: center;
+}
+
+.baking-item{
+    width: 33.333%;
+    margin-top: 7%;
+    float: left;
+}
+.baking-item img{
+    width: 95%;
+}
+
+/* information */
+
+.information{
+    padding: 5% 0;
+}
+.info-lift,
+.info-right{
+    width: 45%;
+    float:left;
+}
+.info-right{
+   margin-left: 7%;
+}
+
+.info-right ul .fa-regular,
+.info-right ul .fa-solid {
+    font-size: 15px;
+    padding: 7px;
+    margin:8px 5px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #664821;
+}
+
+
+/* footer */
+.footer{
+    background-image: url(../images/contact-details-map.png);
+    background-position:bottom;
+    background-size:30%;
+    background-repeat: no-repeat;
+    background-color: #38332c;
+    padding: 5% 0;
+}
+.footer .footer-item{
+    width: 20%;
+    float: left;
+    padding-right: 5%;
+
+}
+.footer p{
+    padding-top: 3%;
+}
+
+h4{
+    color: white;
+    font-size: 18px;
+}
+
+.footer ul .fa-solid{
+    color: white;
+    font-size: 13px;
+}
+
+/* end */
+
+.end{
+    background-color: #353330;
+    text-align: center;
+    padding: 3% 0;
+}
+.end img{
+    width: 30%;
+}
+.end li{
+    list-style-type: none;
+    float: left;
+    width: calc(91%\4);
+}
+.icon{
+    width: 10%;
+    margin: auto;
+}
+.margin{
+    margin-right: 3%;
+}
+.end li .fa-solid,
+.end li .fa-brands{
+    color: white;
+    background-color: #968f86;
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 16;
+}

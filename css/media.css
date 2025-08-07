@@ -1,0 +1,70 @@
+/* xs */
+@media (max-width: 640px ){}
+/* sm */
+@media (max-width: 768px){}
+/* md */
+@media (max-width: 1024px){
+    body{
+         width: 100vw;
+    }
+
+    nav .logo{
+    width: 30%;
+    display: inline-block;
+}
+nav .logo img{
+    width: 100%;
+}
+nav .nav-links{
+    display: none;
+}
+
+.welcome{
+    width: 90%;
+    margin: auto;
+    margin-top: 20%;
+}
+.welcome h4{
+    margin: 0;
+}
+.welcome h1{
+    margin: 0;
+}
+
+.who-we-are-left,.who-we-are-right,
+.location-left,.location-right, .baking-item,
+.info-right,
+.info-lift
+{
+    width: 100%;
+}
+
+.who-we-are span{
+    font-size: 12px;
+}
+.info-right h2{
+    font-size: 25px;
+}
+
+.footer .footer-item{
+    width: 100%;
+
+}
+.end{
+    text-align: center;
+}
+.end li{
+    width: 20%;
+    margin: 0;
+}
+.icon{
+    width: 40%;
+    margin: auto;
+}
+}
+/* lg */
+@media (max-width: 1280px){
+}
+/* xl */
+@media (max-width: 1536px){}
+/*  */
